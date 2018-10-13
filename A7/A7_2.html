@@ -1,0 +1,41 @@
+<!DOCTYPE html >
+<html lang="es">
+    
+<head>
+<title> Formularios </title>
+<meta charset="utf-8">
+    <script>
+    
+        function script() {
+        alert("Nicolas Olivera Simon");
+        }
+    
+    </script>
+</head>
+    
+<body>
+    <form>
+        
+        <fieldset>
+        <legend>Informacion personal:</legend>
+            
+            <label for="nombre">Nombre:</label>
+            <br> <input type="text" id="nombre" placeholder="Nobre Completo" required autofocus> <a title="Campo obligatorio">*</a>
+            
+            <p>Clave:<br> <input type="password" required> <a title="Campo obligatorio">*</a> </p>
+
+            <p>Edad (Mayor que 18):<br> <input type="number" min="18" max="100"> </p>
+            
+            <p>Correo-e:<br> <input type="email"></p>
+            
+            <p>Pagina personal:<br> <input type="URL"></p>
+            
+            <input type="submit" value="Enviar" />
+            <input type="submit" value="Pulsa aqui" onclick="script()"/>
+            
+        </fieldset>
+        
+    </form>
+</body>
+    
+</html>

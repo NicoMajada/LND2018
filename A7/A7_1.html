@@ -1,0 +1,66 @@
+<!DOCTYPE html >
+<html lang="es">
+    
+<head>
+<title> Formularios </title>
+<meta charset="utf-8">
+</head>
+    
+<body>
+<h1> A7 Formularios </h1>
+    
+    <form>
+        
+        <fieldset>
+        <legend>Informacion aa personal</legend>
+        
+            <p>Apellidos:<input type="text"></p>
+        
+            <p>Nombre:<input type="text"></p>
+           
+            <p>Direccion:<input type="text"></p>
+            
+        </fieldset>
+        
+        <br>
+        
+         <fieldset>
+        <legend>Sistemas operativo</legend>
+             
+        <select id="so" name="so">
+        
+        <option value="gnu">GNU/Linux</option>
+        <option value="Windows">Windows</option>
+        <option value="Mac">Mac</option>
+        <option value="otro">Otro</option>
+        </select>
+
+        </fieldset>
+        
+        <br>
+        
+        <fieldset>
+        <legend>Ordenador personal</legend>
+            
+            <p>
+            ¿Tienes ordenador en tu casa? <br>
+			<input type="radio" name="" value="si" /> Si <br />
+			<input type="radio" name="" value="no" /> No
+	        </p>
+             
+            <p> Si tienes ordenador describe sus caracteristicas principales:<br>
+                
+			<textarea name="" rows="10" cols="60"> </textarea>
+            </p>
+            
+            <input type="submit" value="Enviar" />
+            <input type="submit" value="Borra" />
+            
+        </fieldset>
+        
+    
+    </form>
+    
+</body>    
+    
+</html>
