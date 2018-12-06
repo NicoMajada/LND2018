@@ -1,0 +1,44 @@
+/*texto*/
+body
+    {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    }
+
+/*Titulo */
+h1,h4
+	{
+	color: red;
+	}
+
+/*Parrafo */
+p
+    {
+    color: #aa0860; 
+    }
+
+.negrita
+    {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    color: #a037ff;
+    font-weight: bold;
+    }
+
+#cursiva
+    {
+    color: #84b42a;
+    font-style: italic;
+    }
+
+/*Lista*/
+li
+    {
+    color: yellow;
+    background-color: grey;
+    }
+
+/* Imagen */
+
+#imagen1
+    {
+    width:500px;
+    }

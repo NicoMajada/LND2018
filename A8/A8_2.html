@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <title>A8 Ejercicio 2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Css/estilo2.css" />
+    
+    <script>
+    function script() {
+       
+    }
+    </script>
+</head>
+   
+<body>
+    
+    <form>
+        
+        <fieldset>
+            <legend>Tu cara</legend>
+            
+            <p>Foto: <input type="file" required></p>
+            Previsualización de imagen:
+        </fieldset>
+        
+        <br> 
+        
+        <fieldset> 
+            
+            <legend>Datos generales</legend>
+
+            <p>Nombre:<input type="text" name="Nombre" placeholder="Nombre completo" required autofocus></p> 
+            
+            <p >Género:<input type="radio" name="Género" required> Hombre <input type="radio" name="Género" >Mujer </p>
+            
+
+            <p>Edad:<input type="number" min="18" max="110"> </p>
+
+            <p>Fecha de nacimiento:<input type="date"></p> 
+            
+            <p>Color favorito: <input type="color"></p>
+            
+            <p>País: 
+                <select>
+                <option value="España">España</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                </select>
+            </p>   
+
+        </fieldset>
+        
+        <br>
+        
+        <fieldset>
+            
+            <legend>Otras características</legend>
+            
+            <p>Altura: <a class="Frojo">Bajo</a><input type="range"><a class="Fazul">Alto</a></p>
+             
+            <p>Salario: <a class="Frojo">Pobre</a><input type="range"><a class="Fazul">Rico</a></p>
+
+        </fieldset>
+        
+        <br>
+        
+        <fieldset>
+            
+            <legend>Información de contacto</legend>
+            
+            <p>Email: <input type="email" required></p>
+           
+            <p>Móvil: <input type="tel"></p>
+            
+            <p>Dirección: <textarea name="Dirección" rows="4" cols="30"></textarea></p>
+            
+            Método de contacto: <input type="checkbox" value="Email">Email
+            <input type="checkbox" value="Whatsapp">Whatsapp
+            <input type="checkbox" value="Skype">Skype
+           
+        </fieldset>
+        
+        <br>
+        
+            <input type="button" value="Enviar">
+        
+    </form>
+
+</body>
+    
+</html>

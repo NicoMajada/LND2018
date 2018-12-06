@@ -1,0 +1,26 @@
+
+/* Cajas-Bordes */
+
+fieldset
+    {
+    border: solid #e9ff00 10px;
+    background-color: #faffdc;
+    width: 600px;
+    }
+
+/*Color de fondo Otras caracteristicas */
+.Frojo
+    {
+    background-color: #ff0000;
+    }
+
+.Fazul
+    {
+    background-color: #7500ff;
+    }
+
+input 
+    {
+    display: block;
+    margin-left: 200px;
+    } 
