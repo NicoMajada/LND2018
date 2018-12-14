@@ -1,0 +1,221 @@
+*
+    {
+    font-family: 'Oxygen', sans-serif;
+    padding: 0px;
+    margin:0px;
+    }
+
+
+/***********************************
+            CUERPO 
+***********************************/
+
+body
+    {
+    background-image: url(../imagenes/fondo.jpg)
+    }
+
+#container
+	{
+	border: 2px solid;
+	background-color: #bdbdbd;
+	}
+
+article
+    {
+    margin: 25px 25px 25px 30px;
+    }
+
+/* caja de formulario*/
+#cajaf
+    {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    }
+
+
+
+/***********************************
+            CABECERA
+***********************************/
+
+header
+    {
+    color: white;
+    background-color:#883997;
+    padding: 25px;
+    text-align: center;
+    }
+
+.header2
+    {
+    background-color:#8d8d8d;
+    text-align: left;
+    }
+
+
+/***********************************
+                MENU
+***********************************/
+nav
+    {
+    padding:15px;
+    background-color:#8d8d8d;
+    }
+
+nav li
+    {
+    display:inline;
+    }
+
+nav a
+    {
+    background-color: black;
+	text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px;
+    color: white;
+    text-decoration: none;
+    }
+nav > ul > li + li + li + li + li
+	{
+	float: right;
+	margin: 15px;
+	margin: 0px;
+	}
+
+nav ul
+    {
+    padding: 0px;
+    }
+
+nav a:hover
+    {
+    background-color: #ba68c8;   
+    }
+
+
+/***********************************
+             TABLA 
+***********************************/
+
+table
+    {
+    color: Black;
+    margin:10px 10px 10px 10px;
+    border-collapse: collapse;
+    border: 7px solid;
+    border-color: #883997;
+    }
+
+td  {
+    border: 3px solid;
+    text-align: center;
+    width: 120px;
+    padding: 5px;
+    }
+
+table tbody tr:nth-child(odd)
+{
+background: #8d8d8d;
+}
+
+/***********************************
+              TEXTO
+***********************************/
+h2, h4, h5
+    {
+    text-decoration:underline;
+    margin: 5px;
+    color: #883997;
+    }
+p
+    {
+    text-align:left;
+    margin: 10px;
+    }
+
+.negrita
+    {
+    font-weight: bold;
+    }
+
+/*Listas coches*/
+ol
+    {
+    padding: 10px;
+    margin-left: 20px;
+    }
+/* Negrita en el formulario*/
+#cajaf
+    {
+    font-weight: bold;
+    }
+
+/***********************************
+            IMAGENES
+***********************************/
+img 
+    {
+    padding: 20px;
+    display:block;
+    margin:auto;
+    width: 60%; 
+    height: 60%; 
+    }
+
+.banner
+    {
+    display:block;
+    margin:auto;
+    width: 90%; 
+    height: 90%;
+    }
+
+
+
+/***********************************
+            VIDEOS
+***********************************/
+iframe
+    {
+    padding: 25px;
+    display:block;
+    margin:auto;
+    }
+
+/***********************************
+            PIE DE PAGINA 
+***********************************/
+
+footer
+    {
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, rgba(136,57,151,0), rgba(136,57,151,1));
+    }
+h3
+    {
+    margin-left: 15px;
+    }
+
+dl
+    {
+    margin: 5px 15px 15px 15px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    }
+
+
+/***********************************
+            RESPONSIVE
+***********************************/
+img 
+    {
+    height: auto;
+    }
+
+
+
+
